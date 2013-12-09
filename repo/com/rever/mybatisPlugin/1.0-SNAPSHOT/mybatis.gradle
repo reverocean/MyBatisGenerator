@@ -21,4 +21,4 @@ buildscript {
 repositories {
     mavenCentral()
 }
-apply plugin: 'mybatis'
+apply plugin: com.rever.MyBatisGeneratorPlugin

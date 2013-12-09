@@ -11,7 +11,7 @@ buildscript {
 }
 ```
 
-You can config the (generator config file)[http://mybatis.org/generator/configreference/xmlconfig.html] by the following:
+You can config the [generator config file](http://mybatis.org/generator/configreference/xmlconfig.html) by the following:
 ```
 mybatis{
     configFile = '../generatorConfig.xml'

@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        maven {
+            url uri('../repo')
+        }
+    }
+    dependencies {
+        classpath('com.rever:mybatisPlugin:1.0-SNAPSHOT')
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'mybatis'
+
+mybatis{
+    configFile = '../generatorConfig.xml'
+}

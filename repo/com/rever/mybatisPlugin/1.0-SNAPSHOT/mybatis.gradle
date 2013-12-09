@@ -12,7 +12,7 @@ buildscript {
         mavenRepo url: basePath
     }
     dependencies {
-        classpath('com.rever:mybatisPlugin:1.0-SNAPSHOT')
+        classpath("com.rever:mybatisPlugin:${version}")
     }
 }
 
